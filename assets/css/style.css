@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+
+/* HEADER */
+
+.inicio {
+  background-image: url(../images/Header\ Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 505px;
+  width: auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.inicio-nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.inicio-nav img {
+  max-width: 200px;
+  height: auto;
+}
+
+.btn-entrar {
+  background-color: #FFFFFF;
+  color: #23272A;
+  font-weight: 700;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.inicio-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 47.5rem;
+}
+
+#inicio-titulo {
+  color: #FFFFFF;
+  font-family: Luckiest Guy;
+  font-weight: 400;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+#inicio-corpo {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.inicio-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 28px;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem 2rem;
+  display: inline-block;
+}
+
+.btn-branco {
+  background-color: #FFFFFF;
+  color: #23272A;
+}
+
+.btn-cinza {
+  background-color: #23272A;
+  color: #FFFFFF;
+}
+
+/* MAIN */
+
+.section {
+  margin: 2rem auto;
+  padding: 1.5rem 0;
+  max-width: 970px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-texto h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.section-cinza {
+  background-color: #F6F6F6;
+}
+
+.section-final {
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 2.5rem;
+  max-width: 780px;
+}
+
+.titulo-destaque {
+  font-family: Luckiest Guy;
+  font-size: 2.5rem;
+  max-width: 600px;
+}
+
+footer {
+  background-color: #23272A;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+footer img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* TELAS DE MOBILE */
+
+@media screen and (max-width: 428px) {
+
+  .inicio-nav {
+    position: relative;
+  }
+
+  .inicio-nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .inicio-nav img {
+    max-width: 130px;
+  }
+
+  .btn-entrar {
+    font-size: 0.9rem;
+  }
+
+  .inicio-titulo,
+  .inicio-corpo {
+    text-align: left;
+  }
+
+  .inicio-links {
+    flex-direction: column;
+  }
+
+  .section {
+    flex-direction: column;
+    margin: 2rem 1.5rem;
+  }
+
+  .section img {
+    width: 100%;
+  }
+
+  .section-texto h3 {
+    font-size: 1.5rem;
+  }
+
+  .section-final {
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  #destaque {
+    font-size: 2rem;
+  }
+
+  footer img {
+    max-width: 162px
+  }
+
+}
