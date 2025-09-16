@@ -5,6 +5,8 @@ A ideia é replicar a estrutura visual do Discord e garantir que o layout funcio
 
 Protótipo no Figma: https://www.figma.com/file/NRBYrG5d4DSzObv7dpTqoM/Desafio-Responsividade---DIO
 
+Live site: https://challenges-personal.github.io/dio-desafio-responsivo/
+
 ## Tecnologias
 
 - **HTML5** – estrutura semântica
